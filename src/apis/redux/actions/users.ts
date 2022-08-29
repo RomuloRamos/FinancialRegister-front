@@ -1,4 +1,4 @@
-
+import {createAsyncThunk} from '@reduxjs/toolkit';
 
 export const userFetch = () =>{
     console.log("userFetch called");    
